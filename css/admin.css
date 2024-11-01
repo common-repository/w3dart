@@ -1,0 +1,124 @@
+#adminmenu li.menu-top[class*="W3Dart"] .wp-menu-image img {
+    padding: 6px 0 0 0;
+}
+
+.w3dart_title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+
+div.w3dart-container {
+    margin-right: 20px;
+}
+
+div.w3dart-container .setting-row textarea {
+    width: 80%;
+    height: 60px;
+    border: solid 1px #cccccc;
+    padding: 10px 18px;
+    resize: none;
+}
+
+div.w3dart-container div.setting-value label+label {
+    display: block;
+    margin-top: 7px;
+}
+
+div.w3dart-container div.setting-row {
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+div.w3dart-container div.setting-row+div.setting-row:not(#w3-visible-roles) {
+    border-top: solid 1px #eaeaea;
+    padding-top: 20px;
+}
+
+div.w3dart-container .button.button-primary {
+    margin: 20px 0 20px 200px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 4px;
+    background: #F72360;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+div.w3dart-container .button.button-primary:hover {
+    background: #DF0E4A;
+    color: #ffffff;
+}
+
+div.w3dart-container * {
+    box-sizing: border-box;
+}
+
+div.w3dart-container div.setting-title {
+    padding: 10px 20px;
+    background-color: #e5ebf0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+    border: solid 1px #c7ced6;
+    border-radius: 5px 5px 0 0;
+}
+
+div.w3dart-container form.setting {
+    display: block;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+div.w3dart-container div.setting-row {
+    clear: both;
+}
+
+div.w3dart-container div.setting-label {
+    float: left;
+    width: 200px;
+}
+
+div.w3dart-container div.setting-value {
+    margin-left: 200px;
+}
+
+div.w3dart-container form.setting input[type="text"] {
+    width: 600px;
+    max-width: 100%;
+    padding: 10px;
+    font-family: 'Courier New';
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+div.w3dart-container form.setting select {
+    width: 600px;
+    max-width: 100%;
+}
+
+div.w3dart-container .get-your-token {
+    margin: 5px 0 15px 0;
+}
+
+div.w3dart-container .save-success {
+    margin-left: 5px;
+    animation: Userback_fade_In 0.2s;
+}
+
+div.w3dart-container #w3-visible-roles {
+    display: none;
+}
